@@ -35,7 +35,6 @@ public class Main {
             sum = sum+ list.get(i);
         }
         System.out.println(sum);
-        float k = 0;
         for(int i = 0; i <= x-1; i++) {
             if (i == x-1) {
                 list.set(0, sum);
